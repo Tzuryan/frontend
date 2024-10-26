@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa; /* Warna latar belakang */
+}
+.about-section {
+    padding: 60px 0; /* Padding atas dan bawah */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+}
+
+.footer {
+    background-color: #343a40; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+}
+
+.row .col {
+    height: 90%; /* Ganti 50% dengan auto untuk membiarkan konten menentukan tinggi */
+    width: 90%; /* Menentukan lebar kontainer */
+    text-align: center;
+}
+.row .col{
+    width: 90%; /* Lebar row */
+    margin-top: -px;
+}
+.row .col-md-6 img {
+    margin-right: 70px; /* Menambahkan jarak atas untuk gambar */
+    height: 80%;
+    width: 100%;
+}
+.about-section {
+    text-align: left; /* Menyelaraskan teks ke tengah */
+}
+.col-md-6{
+    display: flex; /* Menggunakan Flexbox di dalam kolom */
+    flex-direction: column; /* Atur elemen di kolom secara vertikal */
+    justify-content: center; /* Pusatkan konten di tengah vertikal */
+    align-items: flex-start; /* Selaraskan teks di sebelah kiri */
+    text-align: justify; /* Justifikasi teks */
+}
+.col-md-6 h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+

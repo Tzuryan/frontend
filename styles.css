@@ -1,0 +1,44 @@
+.carousel-item img {
+    width: 100%; /* Lebar gambar mengikuti container */
+    height: 80vh; /* Mengisi tinggi layar */
+    object-fit: cover; /* Gambar ter-crop sesuai ukuran */
+}
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1)), url('/api/placeholder/1200/600');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.feature-card {
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.category-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter-section {
+    background-color: #f8f9fa;
+}
+
+#scrollToTopBtn {
+    display: none; /* Sembunyikan tombol secara default */
+    position: fixed; /* Posisi tetap */
+    bottom: 20px; /* Jarak dari bawah */
+    right: 20px; /* Jarak dari kanan */
+    z-index: 1000; /* Agar selalu di atas elemen lain */
+    border: none; /* Menghilangkan border */
+    padding: 10px; /* Memberikan padding */
+    border-radius: 5px; /* Sudut bulat */
+    font-size: 18px; /* Ukuran font */
+    color: #ffffff; /* Warna teks */
+    background-color: #212529; /* Warna latar belakang */
+}

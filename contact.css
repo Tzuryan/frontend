@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Pastikan body memenuhi tinggi viewport */
+    background-color: #f8f9fa; /* Warna latar belakang */
+}
+.contact-section {
+    flex: 1; /* Memungkinkan section ini untuk tumbuh dan mengambil ruang yang tersedia */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    padding: 60px 0; /* Padding atas dan bawah */
+}
+.contact-info {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #343a40; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+}
+.contact-section{
+    flex-grow: 1; /* Membuat bagian ini tumbuh untuk mengisi ruang yang tersedia */
+    display: flex;
+    align-items: center; /* Mengatur item di tengah vertikal */
+    justify-content: center; /* Mengatur item di tengah horizontal */
+    background-image: url('https://images.unsplash.com/photo-1691731982394-c8bdd16b81eb?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Gambar latar belakang */
+    background-size: cover; /* Menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    color: #ffffff; /* Warna teks */
+    min-height:90vh;
+}
+.contact-section .row{
+    color:#000000;
+    background-color:rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-info{
+    justify-content: center;
+    margin-top: 45px;
+}

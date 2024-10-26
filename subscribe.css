@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Agar body memenuhi tinggi viewport */
+}
+
+.newsletter-section {
+    flex-grow: 1; /* Membuat bagian ini tumbuh untuk mengisi ruang yang tersedia */
+    display: flex;
+    align-items: center; /* Mengatur item di tengah vertikal */
+    justify-content: center; /* Mengatur item di tengah horizontal */
+    background-image: url('https://images.unsplash.com/photo-1729508418668-dbd3e8654c08?q=80&w=2139&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Gambar latar belakang */
+    background-size: cover; /* Menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    color: #ffffff; /* Warna teks */
+    min-height: 90vh;
+}
+
+.footer {
+    background-color: #212529; /* Warna latar belakang footer */
+    color: #ffffff; /* Warna teks footer */
+}
+
+.footer a {
+    color: #ffffff; /* Warna tautan footer */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Memberikan efek underline pada tautan saat hover */
+}
+#scrollToTopBtn {
+    display: none; /* Sembunyikan tombol secara default */
+    position: fixed; /* Posisi tetap */
+    bottom: 20px; /* Jarak dari bawah */
+    right: 20px; /* Jarak dari kanan */
+    z-index: 1000; /* Agar selalu di atas elemen lain */
+    border: none; /* Menghilangkan border */
+    padding: 10px; /* Memberikan padding */
+    border-radius: 5px; /* Sudut bulat */
+    font-size: 18px; /* Ukuran font */
+    color: #ffffff; /* Warna teks */
+    background-color: #212529; /* Warna latar belakang */
+}
